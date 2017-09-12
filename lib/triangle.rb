@@ -56,7 +56,7 @@ class Triangle
 
 end
 
-class TriangleError
+class TriangleError < StandardError
   # def message
   #   "This is not an triangle!"
   # end
