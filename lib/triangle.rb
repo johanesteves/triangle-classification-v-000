@@ -1,8 +1,4 @@
-class TriangleError < StandardError
-  def message
-    "This is not an triangle!"
-  end
-end
+
 
 class Triangle < TriangleError
   # write code here
@@ -58,4 +54,10 @@ class Triangle < TriangleError
     @sides
   end
 
+end
+
+class TriangleError 
+  def message
+    "This is not an triangle!"
+  end
 end
